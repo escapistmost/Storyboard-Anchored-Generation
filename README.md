@@ -2,8 +2,6 @@
 
 # STAGE: Storyboard-Anchored Generation for Cinematic Multi-shot Narrative
 
-**accepted by CVPR 2026**
-
 </div>
 
 <div align="center">
