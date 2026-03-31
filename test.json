@@ -1,0 +1,13 @@
+[
+    {
+      "idx": 552,
+      "prompt": "Current shot: \nIn the scene, a man and a woman are engaged in a focused interaction. The woman, with long dark hair, is wearing a blue blouse over a dark top. She takes out her phone and glances down at the screen with a concentrated expression. The man in the foreground, dressed in a dark suit, leans slightly forward, appearing to explain or discuss something with her. The setting is a modern train carriage, featuring red seats and large windows that let in natural light, giving the scene a bright and realistic atmosphere. The camera remains static at a medium close-up distance, centering on the interaction between the two, highlighting the woman’s attentive gaze at her phone and the subtle communication between them.\n Current shot time: 2.75275\n Current frame num: 66",
+      "control_img_list": [
+        "/root/autodl-tmp/open/reference/reference1.png",
+        "/root/autodl-tmp/open/reference/reference2.png",
+        "/root/autodl-tmp/open/reference/reference3.png",
+        "/root/autodl-tmp/open/reference/reference4.png",
+        "/root/autodl-tmp/open/reference/reference5.png"
+      ]
+    }
+  ]

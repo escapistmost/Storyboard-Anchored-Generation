@@ -1,0 +1,18 @@
+[
+  {
+    "idx": 11,
+    "prompt": "Current shot: \n A wide-angle shot reveals the interior of an abandoned corrugated metal shed. The camera is positioned low, near the dirt floor, looking towards the far corner where dim light seeps through gaps in the rusted walls. Scattered across the ground are old wooden planks, dried grass, and fragments of forgotten farm equipment. The walls show vertical lines of corrugated metal, some panels bent or missing, creating streaks of pale daylight that cut through the dusty air. The color palette is dominated by muted browns, grays, and the dull orange of rust. The lighting is dim and atmospheric, with most of the space shrouded in shadow, emphasizing the sense of abandonment and decay. \n Current shot time: 5 \n Current frame num: 81",
+    "control_img_list": [
+      "/path/to/previous_last_frame.png",
+      "/path/to/character_reference.png"
+    ]
+  },
+  {
+    "idx": 12,
+    "prompt": "Current shot: \n An ultra-wide-angle shot captures the full width of the shed's interior from one end to the other. The camera is positioned at ground level, facing lengthwise down the structure. The exposed wooden beam framework is visible overhead, with portions of the roof missing, allowing filtered sunlight to create diagonal shafts of light that illuminate floating dust particles. Against the left wall leans a broken wooden ladder, its rungs partially rotted. The right side shows stacks of weathered wooden crates, their surfaces covered in years of grime. The overall atmosphere is melancholic and still, with natural light creating a chiaroscuro effect that leaves much of the space in deep shadow. \n Current shot time: 5 \n Current frame num: 81",
+    "control_img_list": [
+      "/path/to/previous_last_frame.png",
+      "/path/to/character_reference.png"
+    ]
+  }
+]
