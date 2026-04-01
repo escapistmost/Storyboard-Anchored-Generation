@@ -47,6 +47,8 @@ While recent advancements in generative models have achieved remarkable visual f
 
 You can find the pre-trained checkpoints in our [Hugging Face Repository](https://huggingface.co/escapist413/STAGE).
 
+## 🚀 Inference
+
 ### Run
 
 ```bash
