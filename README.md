@@ -14,6 +14,7 @@ Si Li,
 Boxin Shi
 
 <a href="https://arxiv.org/abs/2512.12372"><img src="https://img.shields.io/badge/arXiv-2512.12372-A42C25.svg" alt="arXiv"></a>
+<a href="https://huggingface.co/escapist413/STAGE"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow" alt="Hugging Face"></a>
 <a href="https://www.163.com/dy/article/KON596640511AQHO.html"><img src="https://img.shields.io/badge/%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83-Report-0A66C2.svg" alt="机器之心"></a>
 
 </div>
@@ -35,12 +36,27 @@ While recent advancements in generative models have achieved remarkable visual f
 
 ## 📑 Todo List
 
+- [x] Release inference code
+- [x] Release inference checkpoint
 - [ ] Release ConStoryBoard dataset
 - [ ] Release ConStoryBoard-HP dataset
-- [x] Release inference code
-- [ ] Release inference checkpoint
 - [ ] Release training code
 - [ ] Release DPO training code
+
+## 📥 Download
+
+You can find the pre-trained checkpoints in our [Hugging Face Repository](https://huggingface.co/escapist413/STAGE).
+
+### Using `huggingface-cli` (Recommended)
+
+To download the full model directory, you can use the following command:
+
+```bash
+# Install the CLI if you haven't
+pip install -U huggingface_hub
+
+# Download the model to a local folder
+huggingface-cli download escapist413/STAGE --local-dir ./checkpoints
 
 ## Inference
 
