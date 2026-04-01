@@ -47,34 +47,6 @@ While recent advancements in generative models have achieved remarkable visual f
 
 You can find the pre-trained checkpoints in our [Hugging Face Repository](https://huggingface.co/escapist413/STAGE).
 
-### Using `huggingface-cli` (Recommended)
-
-To download the full model directory, you can use the following command:
-
-```bash
-# Install the CLI if you haven't
-pip install -U huggingface_hub
-
-# Download the model to a local folder
-huggingface-cli download escapist413/STAGE --local-dir ./checkpoints
-
-## Inference
-
-This repository includes a minimal open-source inference pipeline for STAGE.
-
-### Structure
-
-- `src/open_infer/run_infer_json.py`: minimal inference entry with JSON input.
-- `src/musubi_tuner/`: minimal dependency closure required for inference (training-only parts removed).
-- `examples/input_example.json`: sample input JSON.
-- `CORE_TRACE.md`: mapping to the original `infer.py` / `infer_network.py`.
-
-### Installation
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Run
 
 ```bash
