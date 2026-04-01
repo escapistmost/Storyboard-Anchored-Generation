@@ -62,6 +62,7 @@ cd STAGE
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ## 🚀 Inference
 
