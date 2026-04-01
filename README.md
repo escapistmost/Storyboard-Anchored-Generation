@@ -30,14 +30,15 @@ While recent advancements in generative models have achieved remarkable visual f
 </details>
 
 ## 💡 News
-
+- **2026.2.21 STAGE is accepted by CVPR 2026! 🎉**
 - 2026.2.27 Release Project Page and Paper!
 - 2026.3.31 Release open-source inference code.
 
 ## 📑 Todo List
 
-- [x] Release inference code
-- [x] Release inference checkpoint
+- [x] Release $\text{STEP}^2$ inference code
+- [x] Release $\text{STEP}^2$ inference checkpoint
+- [ ] Release full STAGE pipeline (Multi-shot generation)
 - [ ] Release ConStoryBoard dataset
 - [ ] Release ConStoryBoard-HP dataset
 - [ ] Release training code
@@ -47,7 +48,25 @@ While recent advancements in generative models have achieved remarkable visual f
 
 You can find the pre-trained checkpoints in our [Hugging Face Repository](https://huggingface.co/escapist413/STAGE).
 
+## 🛠️ Installation
+
+### Requirements
+- **Python**: 3.10
+- **PyTorch**: >= 2.5
+
+### Setup
+```bash
+# Clone the repository
+git clone [https://github.com/your-repo/STAGE.git](https://github.com/your-repo/STAGE.git)
+cd STAGE
+
+# Install dependencies
+pip install -r requirements.txt
+
 ## 🚀 Inference
+
+[!NOTE]
+The current release focuses on $\text{STEP}^2$ of the STAGE workflow, which is designed to generate structural storyboards (start-end frame pairs) for cinematic consistency. The complete multi-shot narrative generation pipeline will be integrated in future updates.
 
 ### Run
 
