@@ -15,6 +15,7 @@ Boxin Shi
 
 <a href="https://arxiv.org/abs/2512.12372"><img src="https://img.shields.io/badge/arXiv-2512.12372-A42C25.svg" alt="arXiv"></a>
 <a href="https://huggingface.co/escapist413/STAGE"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow" alt="Hugging Face"></a>
+<a href="https://huggingface.co/datasets/escapist413/ConStoryBoard"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow" alt="Hugging Face Dataset"></a>
 <a href="https://www.163.com/dy/article/KON596640511AQHO.html"><img src="https://img.shields.io/badge/%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83-Report-0A66C2.svg" alt="机器之心"></a>
 
 </div>
@@ -39,7 +40,7 @@ While recent advancements in generative models have achieved remarkable visual f
 - [x] Release $\text{STEP}^2$ inference code
 - [x] Release $\text{STEP}^2$ inference checkpoint
 - [ ] Release full STAGE pipeline (Multi-shot generation)
-- [ ] Release ConStoryBoard dataset
+- [x] Release ConStoryBoard dataset
 - [ ] Release ConStoryBoard-HP dataset
 - [ ] Release training code
 - [ ] Release DPO training code
@@ -47,6 +48,8 @@ While recent advancements in generative models have achieved remarkable visual f
 ## 📥 Download
 
 You can find the pre-trained checkpoints in our [Hugging Face Repository](https://huggingface.co/escapist413/STAGE).
+
+You can find the ConStoryBoard dataset in our [Hugging Face Dataset Repository](https://huggingface.co/datasets/escapist413/ConStoryBoard).
 
 ## 🛠️ Installation
 
