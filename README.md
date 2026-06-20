@@ -60,7 +60,7 @@ You can find the ConStoryBoard dataset in our [Hugging Face Dataset Repository](
 ### Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/your-repo/STAGE.git](https://github.com/your-repo/STAGE.git)
+git clone https://github.com/escapistmost/Storyboard-Anchored-Generation.git
 cd STAGE
 
 # Install dependencies
